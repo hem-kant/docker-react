@@ -6,7 +6,7 @@ before_install:
   - docker build -t hemkant/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run hemkant/docker-react npm run test -- --coverage
+  - docker run -e CI=true  hemkant/docker-react npm run test
 
 # Uncomment the below lines for auto deployment on AWS beanstalk ... make sure you use proper secret keys
 #deploy:
