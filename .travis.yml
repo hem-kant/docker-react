@@ -8,7 +8,7 @@ before_install:
 script:
   - docker run hemkant/docker-react npm run test -- --coverage
 
-
+# Uncomment the below lines for auto deployment on AWS beanstalk ... make sure you use proper secret keys
 #deploy:
 #  provider: elasticbeanstalk
 #  region: "us-west-2"
