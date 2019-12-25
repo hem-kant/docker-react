@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. testing of auto-refresh testing of compose ddd prod t
+          Edit <code>src/App.js</code> and save to reload. Feature branch changes 
         </p>
         <a
           className="App-link"
